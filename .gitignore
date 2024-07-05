@@ -1,0 +1,37 @@
+# compiler
+cache/
+out/
+
+# libs
+lib/
+
+# development broadcast logs
+!/broadcast
+/broadcast/*/31337/
+/broadcast/**/dry-run/
+
+# dotenv
+.env
+
+# foundry
+.foundry/
+
+# hardhat
+artifacts/
+cache_hardhat/
+
+# coverage
+coverage/
+coverage.json
+
+# misc
+*.log
+.DS_Store
+
+# editors
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
